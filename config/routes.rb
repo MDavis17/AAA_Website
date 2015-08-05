@@ -3,7 +3,9 @@ AAAWebsite::Application.routes.draw do
 
 
 
+  devise_for :members
   resources :events
+  
   match "/index" => "aaa_core#index", via: :get
 
 ######## match "/events" => "aaa_core#events", via: :get
