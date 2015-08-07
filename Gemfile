@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'devise'
 
 #using PG gem for SQL database in the cloud
-gem'pg'
+#gem'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
