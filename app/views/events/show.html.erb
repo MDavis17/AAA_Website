@@ -13,7 +13,18 @@
 <p>
   <strong>Description:</strong>
   <%= @event.description %>
+  <%= link_to 'New Comment', new_comment_path(event_id: @event) %>
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |
+
+
+
 <%= link_to 'Back', events_path %>
+
+<section id= "comments">
+	<%= render "comments/index", comments: @comments, event: @event %>
+</section>
+
+<button id="show_comments">Show Comments</button>
+<button id="hide_comments">Hide Comments</button>
