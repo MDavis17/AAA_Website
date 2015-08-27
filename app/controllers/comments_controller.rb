@@ -7,6 +7,9 @@ class CommentsController < ApplicationController
   # GET /comments.json
   def index
     @comments = Comment.where(event_id: params[:event_id])
+    puts events_url
+    puts events_path
+    puts :event_id
     @event = Event.find(params[:event_id])
     #respond_with(@comments)
   end
