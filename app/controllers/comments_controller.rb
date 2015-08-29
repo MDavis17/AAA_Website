@@ -7,9 +7,7 @@ class CommentsController < ApplicationController
   # GET /comments.json
   def index
     @comments = Comment.where(event_id: params[:event_id])
-    puts events_url
-    puts events_path
-    puts :event_id
+
     @event = Event.find(params[:event_id])
     #respond_with(@comments)
   end
@@ -23,7 +21,8 @@ class CommentsController < ApplicationController
 
   # GET /comments/new
   def new
-    @comment = Comment.new(event_id: params[:event_id ])
+    puts 'here'
+    @comment = Comment.new(event_id: params[:event_id])
 
   end
 
@@ -39,6 +38,7 @@ class CommentsController < ApplicationController
     respond_to do |format|
       if @comment.save
         format.html { redirect_to @comment, notice: 'Comment was successfully created.' }
+        puts "here"
         format.json { render :show, status: :created, location: @comment }
       else
         format.html { render :new }
