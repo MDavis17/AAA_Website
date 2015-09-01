@@ -9,13 +9,17 @@
 
 nav#links {
 	ul {
-		text-align: center;
+		list-style: none;
+      	background-color: #444;
+      	text-align: center;
+      	padding: 0;
+     	margin: 0;
 	}
 
 	li {
-				display: inline-block;
+		display: inline-block;
 		margin: 0;
-		padding: 0;
+		padding: 10px;
 		font-size: 1.5em;
 
 		a,
@@ -24,6 +28,9 @@ nav#links {
 			color: #FFF;
 			text-decoration: none;
 		}
+		a:hover {
+      		background-color: #005f5f;
+      	}
 	}
 }
 
