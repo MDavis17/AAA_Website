@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+#rails_12factor for css in the cloud
+gem 'rails_12factor'
 
 #devise for authentication
 gem 'devise'
 
 #using PG gem for SQL database in the cloud
-gem'pg'
+#gem'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
