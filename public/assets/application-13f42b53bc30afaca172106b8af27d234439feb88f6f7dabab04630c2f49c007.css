@@ -17,9 +17,10 @@
  *= require layout
  *= require navigation
  */
+@import url("layout.css.scss");
+@import url("navigation.css.scss");
 
-
-
+/*
 div#container {
 	display: block;
 	position: relative;
@@ -88,7 +89,7 @@ nav#links {
       	}
 	}
 }
-*/
+
 
 
 nav body {
@@ -123,4 +124,4 @@ nav li a,
 	a:hover {
       background-color: #005f5f;
     }
-
+*/
