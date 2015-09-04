@@ -17,10 +17,17 @@
  *= require layout
  *= require navigation
  */
+
+@import url('application.css');
+
+
+
+/*
+
 @import "layout.css.scss";
 @import "navigation.css.scss";
 
-/*
+
 div#container {
 	display: block;
 	position: relative;
