@@ -17,8 +17,8 @@
  *= require layout
  *= require navigation
  */
-@import url("/app/assets/stylesheets/layout.css.scss");
-@import url("/app/assets/stylesheets/navigation.css.scss");
+@import url('/app/assets/stylesheets/layout.css.scss');
+@import url('/app/assets/stylesheets/navigation.css.scss');
 
 /*
 div#container {
