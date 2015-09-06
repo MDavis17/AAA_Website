@@ -4,6 +4,14 @@
 *
 */
 
+
+$ heading-font: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+$ white: #FFFFFF;
+$ blue: #004B80;
+$ back-white: #FFF;
+
+
+
 div#container {
 	display: block;
 	position: relative;
@@ -11,13 +19,14 @@ div#container {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 0;
-	background-color: #FFF;
+	background-color: back-white;
 }
 
 header#page_header {
-	background-color: #004B80;
+	font-family: heading-font;
+	background-color: blue;
 	text-align: center;
-	color: #FFFFFF;
+	color: white;
 	padding: 10px;
 }
 
