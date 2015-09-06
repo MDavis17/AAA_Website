@@ -5,14 +5,15 @@
 */
 
 
-/*
 
-$ heading-font: 'Verdana', 'Arial', 'Helvetica', sans-serif;
-$ white: #FFFFFF;
-$ blue: #004B80;
-$ back-white: #FFF;
+/*
+$heading-font: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+$white: #FFFFFF;
+$grayblue: #004B80;
+$backwhite: #FFF;
 
 */
+@import "site-branding";
 
 
 
@@ -23,14 +24,14 @@ div#container {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 0;
-	background-color: #FFF;
+	background-color: $backwhite;
 }
 
 header#page_header {
 
-	background-color: #004B80;
+	background-color: $grayblue;
 	text-align: center;
-	color: #FFFFFF;
+	color: $white;
 	padding: 10px;
 }
 
