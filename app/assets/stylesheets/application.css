@@ -15,5 +15,6 @@
  *= require_self
  *= require normalize
  *= require layout
+ *= require events
  *= require navigation
  */
