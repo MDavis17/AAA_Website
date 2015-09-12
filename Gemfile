@@ -6,11 +6,25 @@ gem 'rails_12factor'
 #devise for authentication
 gem 'devise'
 
+#active admin for administrative functionality
+gem 'activeadmin', github: 'activeadmin'
+
+#used for uploading files into the web application
+gem 'carrierwave'
+
+#image hadling to augment carrierwave
+gem 'rmagick'
+
+#to provide backwards compatibility to allow the use of attr_accessible
+gem 'protected_attributes'
+
 #using PG gem for SQL database in the cloud
 gem'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
+
+#gem 'meta_search', '>= 1.1.0.pre'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets

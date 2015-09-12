@@ -9,9 +9,14 @@ class AaaCoreController < ApplicationController
 
   def shop
   	@title = "Shop"
+    @sales_items = SalesItem.all
   end
 
   def discussion
   	@title = "Discussion"
   end
+
+  #ActiveAdmin.register Post do
+   # permit_params :name, :description, :price
+  #end
 end
